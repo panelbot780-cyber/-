@@ -23,7 +23,7 @@ app.listen(PORT, () => {
 // /start command
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
-    bot.sendMessage(chatId, 'Hi iam bot owner you type 👉🏻 /pair open BUG 🪲 bot 👾 enjoy 😊');
+    bot.sendMessage(chatId, 'Hi iam bot owner you type 👉🏻 /pair open ᴍᴅ 🪲 bot 👾 enjoy 😊');
 });
 
 // /mycoin command
@@ -32,12 +32,11 @@ bot.onText(/\/pair/, (msg) => {
     const username = msg.from.first_name || "EXPENSIVE";
 
     const message = `
-Hii i am 1M 💗 
+Hii i am ʙʟᴀᴄᴋ ᴅᴇᴠɪʟ 💗 
 👉🏻 USER :  ${username}
-👉🏻 My bot : BUG 🪲 
+👉🏻 My bot : ᴍᴅ 🦚 
 JOIN 👉🏻 https://chat.whatsapp.com/F38ENsiTCob8oXbGW60GlF
-bug bot group link 👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻
-by bittu💗😚
+bug bot group link 👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻💗😚
 `;
 
     bot.sendMessage(chatId, message);
