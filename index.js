@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 // 🔑 Telegram Bot Token
-const token = '8313569778:AAHwp_QsZPK529ODbfw51cqTDg67cRUhe-4';
+const token = '8783636845:AAGLxyw9FVj8VzNAPP1NiNkMQUIEHXUaZXc';
 
 // 🤖 Bot polling
 const bot = new TelegramBot(token, { polling: true });
