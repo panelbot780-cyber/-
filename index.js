@@ -35,8 +35,7 @@ bot.onText(/\/pair/, (msg) => {
 Hii i am ʙʟᴀᴄᴋ ᴅᴇᴠɪʟ 💗 
 👉🏻 USER :  ${username}
 👉🏻 My bot : ᴍᴅ 🦚 
-JOIN 👉🏻 https://chat.whatsapp.com/F38ENsiTCob8oXbGW60GlF
-bug bot group link 👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻💗😚
+   JOIN 👉🏻 💗😚
 `;
 
     bot.sendMessage(chatId, message);
